@@ -48,7 +48,7 @@ export default function ProductDetail({
           <p className="text-lg font-bold text-blue-600 mb-4">
             Rp. {product.price.toFixed(2)}
           </p>
-          <span className="px-4 py-2 rounded-full text-white bg-red-500">
+          <span className="px-4 py-2 rounded-full text-white bg-[#063970]">
             {product.availabilityStatus}
           </span>
         </div>
